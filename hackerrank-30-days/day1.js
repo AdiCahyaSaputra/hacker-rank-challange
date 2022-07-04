@@ -24,23 +24,20 @@ function main() {
     var d = 4.0
     var s = "HackerRank "
     // Declare second integer, double, and String variables.
-    var iSecond;
-    var dSecond;
-    var sSecond;
+    var iSec, dSec, sSec;
 
     // Read and save an integer, double, and String to your variables.
-    iSecond = 4;
-    dSecond = 4.0;
-    sSecond = "is the best place to learn and practice coding!";
-
+    iSec = parseInt(readLine());
+    dSec = parseFloat(readLine());
+    sSec = readLine();
     // Print the sum of both integer variables on a new line.
-    console.log(i + iSecond);
-
+    console.log(iSec + i);
+    
     // Print the sum of the double variables on a new line.
-    console.log(parseFloat(d + dSecond));
+    console.log(parseFloat(dSec + d).toFixed(1));
 
     // Concatenate and print the String variables on a new line
-    console.log(s + sSecond);
+    console.log(s + sSec);
     // The 's' variable above should be printed first.
 
 }
